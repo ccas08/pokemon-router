@@ -1,0 +1,35 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .navbar-logo img {
+    height: 40px;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar-links li {
+    display: inline;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-links a.active {
+    color: red;
+  }
+  
+  
